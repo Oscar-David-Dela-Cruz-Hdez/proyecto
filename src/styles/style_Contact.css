@@ -1,0 +1,67 @@
+.wide-image-container {
+    position: relative;
+  }
+  
+  .wide-image {
+    width: 100%;
+    height: 45vh; /* Ajusta esta altura según tu preferencia */
+    object-fit: cover; /* Para asegurarse de que la imagen se ajuste al contenedor */
+  }
+  
+  .wide-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    z-index: 1; /* Para asegurarse de que el texto esté por encima de la imagen */
+  }
+  .UASD {
+    width: 100%;
+    max-width: 100%;
+    height: 55vh;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .bfc::placeholder{
+    color: black!important;
+    font-weight: 500;
+  }
+  .UASD img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-30%);
+  }
+  .IABS{
+    border-radius: 15px;
+  }
+  .SSAWR{
+    margin-top: 5rem;
+  }
+  .pbs5{
+    padding-bottom: 10rem!important;
+  }
+  .bfc{
+    background-color: rgb(226, 226, 226)!important;
+  }
+
+  @media screen and (max-width: 561px) {
+    .UASD {
+        max-height: 27vh;
+      }
+    .SSAWR{
+      font-size: 1rem!important;
+      margin-top: 1rem;
+    }
+    }
+    @media screen and (min-width: 562px) and (max-width: 837px) {
+        .UASD {
+          max-height: 27vh;
+        } 
+        .SSAWR {
+          font-size: 1rem !important;
+          margin-top: 3rem;
+        }
+      }
+      
